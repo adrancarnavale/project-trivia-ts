@@ -19,7 +19,6 @@ function LoginForm() {
 
   const handleSubmit: React.FormEventHandler = async (e) => {
     e.preventDefault();
-    console.log('oi');
 
     await dispatch(savePlayerToken());
 

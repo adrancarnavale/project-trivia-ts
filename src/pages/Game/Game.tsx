@@ -1,9 +1,22 @@
 import React from 'react';
+import {
+  GameHeader,
+  GameQuestion,
+  GameQuestionInformations,
+  GameQuestionOptions,
+  GameQuestionTimer,
+  QuestionsScore,
+} from '../../components';
 
 function Game() {
   return (
     <div>
-      <h1>Game</h1>
+      <GameHeader />
+      <QuestionsScore />
+      <GameQuestionInformations />
+      <GameQuestionTimer />
+      <GameQuestion />
+      <GameQuestionOptions />
     </div>
   );
 }
